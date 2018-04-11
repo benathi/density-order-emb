@@ -4,6 +4,7 @@ This is an implementation of the model in *[Athiwaratkun and Wilson](https://ope
 
 In this work, we learn Gaussian representations of concepts on hierarchical data (WordNet) using a loss function that penalize the order violation based on truncated divergences. The Gaussian representation reflects the hierarchy of the data via ensapsulation of probability densities. That is, a generic concept such as *entity* corresponds to a broad distribution, encompassing many different specific entities that entail it such as *physical_entity* or *object*.
 
+<img align="center" src="figs/wordnet_synsets_v1.png" alt="wordnetsubset">
 ![wordnetsubset](figs/wordnet_synsets_v1.png?raw=true)
 ![hyperlextable](figs/d2_st_legend_notext.png?raw=true)
 
