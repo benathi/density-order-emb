@@ -4,7 +4,7 @@ This is an implementation of the model in *[Athiwaratkun and Wilson](https://ope
 
 In this work, we learn Gaussian representations of concepts on hierarchical data (WordNet) using a loss function that penalize the order violation based on truncated divergences. The Gaussian representation reflects the hierarchy of the data via ensapsulation of probability densities. That is, a generic concept such as *entity* corresponds to a broad distribution, encompassing many different specific entities that entail it such as *physical_entity* or *object*.
 
-![wordnetsubset](figs/rn_rep.png?raw=true)
+![wordnetsubset](figs/wn_rep.png?raw=true)
 
 
 The learned representations capture the hierarchy of the data well and achieves state-of-the-art results for both Hypernym prediction task and the graded lexical entailment task (**HyperLex**).
